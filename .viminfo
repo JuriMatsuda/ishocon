@@ -1,0 +1,372 @@
+# この viminfo ファイルは Vim 8.0 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+|2,0,1507425659,,"wq"
+:q
+|2,0,1507425249,,"q"
+:q!
+|2,0,0,,"q!"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""1	LINE	0
+	    end
+	
+|3,1,1,1,2,0,0,"    end",""
+"2	LINE	0
+	    def time_now_db
+	      Time.now - 9 * 60 * 60
+|3,0,2,1,2,0,0,"    def time_now_db","      Time.now - 9 * 60 * 60"
+"3	LINE	0
+	export ISHOCON1_DB_HOST='localhost'
+|3,0,3,1,1,0,0,"export ISHOCON1_DB_HOST='localhost'"
+"-	CHAR	0
+	, ' 0.3.18'
+|3,0,36,0,1,0,0,", ' 0.3.18'"
+
+# ファイルマーク:
+'0  114  46  ~/init/insert.rb
+|4,48,114,46,1507425659,"~/init/insert.rb"
+'1  12  0  ~/.ssh/authorized_keys
+|4,49,12,0,1507425249,"~/.ssh/authorized_keys"
+'2  1  19  ~/webapp/python/gunicorn_config.py
+|4,50,1,19,1501844077,"~/webapp/python/gunicorn_config.py"
+'3  2  0  ~/webapp/python/.python-version
+|4,51,2,0,1501843997,"~/webapp/python/.python-version"
+'4  12  21  ~/.bashrc
+|4,52,12,21,1501843704,"~/.bashrc"
+'5  3  0  ~/db_init.sh
+|4,53,3,0,0,"~/db_init.sh"
+'6  46  0  ~/webapp/ruby/app.rb
+|4,54,46,0,0,"~/webapp/ruby/app.rb"
+'7  23  41  ~/webapp/ruby/views/mypage.erb
+|4,55,23,41,0,"~/webapp/ruby/views/mypage.erb"
+'8  1  0  ~/webapp/ruby/mypage.erb
+|4,56,1,0,0,"~/webapp/ruby/mypage.erb"
+'9  1  0  ~/webapp/ruby/app.rb
+|4,57,1,0,0,"~/webapp/ruby/app.rb"
+
+# ジャンプリスト (新しいものが先):
+-'  114  46  ~/init/insert.rb
+|4,39,114,46,1507425659,"~/init/insert.rb"
+-'  15  0  ~/init/insert.rb
+|4,39,15,0,1507425644,"~/init/insert.rb"
+-'  1  0  ~/init/insert.rb
+|4,39,1,0,1507425643,"~/init/insert.rb"
+-'  12  0  ~/.ssh/authorized_keys
+|4,39,12,0,1507425249,"~/.ssh/authorized_keys"
+-'  12  0  ~/.ssh/authorized_keys
+|4,39,12,0,1507425249,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1507425181,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1507425181,"~/.ssh/authorized_keys"
+-'  1  19  ~/webapp/python/gunicorn_config.py
+|4,39,1,19,1501844077,"~/webapp/python/gunicorn_config.py"
+-'  1  19  ~/webapp/python/gunicorn_config.py
+|4,39,1,19,1501844077,"~/webapp/python/gunicorn_config.py"
+-'  1  19  ~/webapp/python/gunicorn_config.py
+|4,39,1,19,1501844077,"~/webapp/python/gunicorn_config.py"
+-'  1  19  ~/webapp/python/gunicorn_config.py
+|4,39,1,19,1501844077,"~/webapp/python/gunicorn_config.py"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  2  0  ~/webapp/python/.python-version
+|4,39,2,0,1501843997,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  1  0  ~/webapp/python/.python-version
+|4,39,1,0,1501843994,"~/webapp/python/.python-version"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  12  21  ~/.bashrc
+|4,39,12,21,1501843704,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  11  0  ~/.bashrc
+|4,39,11,0,1501843678,"~/.bashrc"
+-'  3  0  ~/db_init.sh
+|4,39,3,0,0,"~/db_init.sh"
+-'  46  0  ~/webapp/ruby/app.rb
+|4,39,46,0,0,"~/webapp/ruby/app.rb"
+-'  48  4  ~/webapp/ruby/app.rb
+|4,39,48,4,0,"~/webapp/ruby/app.rb"
+-'  82  4  ~/webapp/ruby/app.rb
+|4,39,82,4,0,"~/webapp/ruby/app.rb"
+-'  1  0  ~/webapp/ruby/app.rb
+|4,39,1,0,0,"~/webapp/ruby/app.rb"
+-'  23  41  ~/webapp/ruby/views/mypage.erb
+|4,39,23,41,0,"~/webapp/ruby/views/mypage.erb"
+-'  1  0  ~/webapp/ruby/mypage.erb
+|4,39,1,0,0,"~/webapp/ruby/mypage.erb"
+-'  1  0  ~/webapp/ruby/views/mypage.erb
+|4,39,1,0,0,"~/webapp/ruby/views/mypage.erb"
+-'  1  0  ~/tmp/ISHOCON1/admin/validator.go
+|4,39,1,0,0,"~/tmp/ISHOCON1/admin/validator.go"
+-'  14  0  ~/.bashrc
+|4,39,14,0,0,"~/.bashrc"
+-'  1  0  ~/webapp/go/main.go
+|4,39,1,0,0,"~/webapp/go/main.go"
+-'  10  0  ~/.bashrc
+|4,39,10,0,0,"~/.bashrc"
+-'  1  0  ~/.bash
+|4,39,1,0,0,"~/.bash"
+-'  1  0  ~/.bashrc
+|4,39,1,0,0,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,0,"~/.bashrc"
+-'  7  0  ~/webapp/views/index.erb
+|4,39,7,0,0,"~/webapp/views/index.erb"
+-'  1  0  ~/webapp/views/index.erb
+|4,39,1,0,0,"~/webapp/views/index.erb"
+-'  1  0  ~/init/init.sql
+|4,39,1,0,0,"~/init/init.sql"
+-'  1  0  ~/init/in
+|4,39,1,0,0,"~/init/in"
+-'  1  0  ~/db_init.sh
+|4,39,1,0,0,"~/db_init.sh"
+-'  17  21  ~/.bash_profile
+|4,39,17,21,0,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,0,"~/.bash_profile"
+-'  5  4  ~/webapp/Gemfile
+|4,39,5,4,0,"~/webapp/Gemfile"
+-'  4  0  ~/webapp/Gemfile
+|4,39,4,0,0,"~/webapp/Gemfile"
+-'  1  0  ~/webapp/Gemfile
+|4,39,1,0,0,"~/webapp/Gemfile"
+-'  1  0  /var/lib/mysql/auto.cnf
+|4,39,1,0,0,"/var/lib/mysql/auto.cnf"
+-'  99  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,99,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  433  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,433,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  415  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,415,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  1  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,1,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  99  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,99,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  433  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,433,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  415  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,415,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  1  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,1,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  1  0  /var/lib/mysql/auto.cnf
+|4,39,1,0,0,"/var/lib/mysql/auto.cnf"
+-'  99  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,99,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  433  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,433,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  415  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,415,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  1  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,1,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  99  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,99,0,0,"~/ISHOCON1/admin/benchmark.go"
+-'  433  0  ~/ISHOCON1/admin/benchmark.go
+|4,39,433,0,0,"~/ISHOCON1/admin/benchmark.go"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/init/insert.rb
+	*	1507425658	0
+	"	114	46
+	^	114	47
+	.	114	46
+	+	114	46
+
+> ~/.ssh/authorized_keys
+	*	1507425185	0
+	"	12	0
+
+> ~/webapp/python/gunicorn_config.py
+	*	1501844077	0
+	"	1	19
+	.	1	19
+	+	1	19
+
+> ~/webapp/python/.python-version
+	*	1501843997	0
+	"	2	0
+	^	2	0
+	.	1	5
+	+	1	5
+
+> ~/.bashrc
+	*	1501843703	0
+	"	12	21
+	^	12	22
+	.	12	21
+	+	15	0
+	+	10	6
+	+	9	13
+	+	10	13
+	+	9	27
+	+	10	25
+	+	11	34
+	+	11	32
+	+	14	36
+	+	11	0
+	+	15	0
+	+	11	36
+	+	12	21
+
+> ~/db_init.sh
+	"	3	0
+	^	3	10
+	.	3	9
+	+	3	0
+	+	1	0
+	+	2	29
+	+	3	9
+
+> ~/webapp/ruby/app.rb
+	"	46	0
+	.	46	0
+	+	50	0
+	+	46	0
+
+> ~/webapp/ruby/views/mypage.erb
+	"	23	41
+	^	23	42
+	.	23	41
+	+	23	41
+
+> ~/webapp/ruby/mypage.erb
+	"	1	0
+
+> ~/tmp/ISHOCON1/admin/validator.go
+	"	1	0
+
+> ~/webapp/go/main.go
+	"	1	0
+
+> ~/.bash
+	"	1	0
+
+> ~/webapp/views/index.erb
+	"	7	0
+
+> ~/init/init.sql
+	"	1	0
+
+> ~/init/in
+	"	1	0
+
+> ~/.bash_profile
+	"	17	21
+	^	17	22
+	.	17	0
+	+	17	0
+
+> ~/webapp/Gemfile
+	"	5	4
+	^	4	22
+	.	4	21
+	+	4	21
+
+> ~/ISHOCON1/admin/benchmark.go
+	"	99	0
+	^	415	30
+	.	415	29
+	+	415	29
