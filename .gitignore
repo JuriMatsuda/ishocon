@@ -1,8 +1,12 @@
 .gem/
 .rbenv/
+.ssh/
+.cache/*
+gocode/*
 .bash_history/
 .bash_logout/
 .bash_profile/
+.bashrc
 .mysql_history/
 .python_history/
 .viminfo/
