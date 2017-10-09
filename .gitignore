@@ -10,3 +10,6 @@ gocode/*
 /.mysql_history
 /.python_history
 /.viminfo
+webapp/ruby/vendor
+webapp/ruby/unicorn.pid
+webapp/ruby/unicorn.log
