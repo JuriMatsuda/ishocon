@@ -2,6 +2,9 @@ require 'sinatra/base'
 require 'mysql2'
 require 'mysql2-cs-bind'
 require 'erubis'
+require 'rack-mini-profiler'
+require 'rack-lineprof'
+require 'redis'
 
 module Ishocon1
   class AuthenticationError < StandardError; end
@@ -11,6 +14,8 @@ end
 class Ishocon1::WebApp < Sinatra::Base
   session_secret = ENV['ISHOCON1_SESSION_SECRET'] || 'showwin_happy'
   use Rack::Session::Cookie, key: 'rack.session', secret: session_secret
+  use Rack::Lineprof
+  use Rack::MiniProfiler
   set :erb, escape_html: true
   set :public_folder, File.expand_path('../public', __FILE__)
   set :protection, true
@@ -59,6 +64,7 @@ class Ishocon1::WebApp < Sinatra::Base
 
     def current_user
       db.xquery('SELECT * FROM users WHERE id = ?', session[:user_id]).first
+
     end
 
     def update_last_login(user_id)
@@ -81,6 +87,11 @@ class Ishocon1::WebApp < Sinatra::Base
       db.xquery('INSERT INTO comments (product_id, user_id, content, created_at) VALUES (?, ?, ?, ?)', \
         product_id, user_id, content, time_now_db)
     end
+
+    def redis
+      redis = Redis.new host:"127.0.0.1", port:"6379"
+    end
+
   end
 
   error Ishocon1::AuthenticationError do
