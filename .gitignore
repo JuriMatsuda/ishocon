@@ -1,11 +1,11 @@
-.gem
-.pyenv
-.rbenv
-.ssh
-.bash_history
-.bash_logout
-.bash_profile
-.mysql_history
-.python_history
-.viminfo
+/.gem
+/.pyenv
+/.rbenv
+/.ssh
+/.bash_history
+/.bash_logout
+/.bash_profile
+/.mysql_history
+/.python_history
+/.viminfo
 
